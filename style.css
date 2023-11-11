@@ -359,24 +359,7 @@ textarea{
         width: 300px;
         height: 250px;
         margin-right: 50px;
-}
-
-.downright{
-    float: right;
-        width: 300px;
-        height: 250px;
-        margin-top: 50px;
-}
-.grid {
-    display: grid;
-    grid-template-columns: 75% 25%;
-    gap: 300px;
-}
-
-.grid-item {
-    padding: 0px;
-    color: #fff;
-    text-align: center;
+        padding-top: 100px;
 }
 .g {
     display: grid;
