@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home Page</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="back">
+    <Header>
+        <div class="logo">
+            <img src="logo.jpg">
+        </div>
+        <div class="name"><p>D.Dolphin</p></div>
+        <nav class="home">
+            <a href="#home">Home</a>&nbsp;&nbsp;
+            <a href="#products">Products</a> &nbsp;
+            <a href="#offers">Offers</a>&nbsp;
+            <a href="#feedback">Feedback</a>&nbsp;
+            <a href="#contact">Contact</a>
+        </nav>
+    </Header>
+    
+    <div class="content">
+        <section id="home">
+            <div class="imgbox">
+                <img src="img1.png" class="img1">
+                <img src="img2.jpg" class="img2">
+                <img src="img3.jpg" class="img3">
+            </div>
+            <div class="quotes">
+                <p class="q1">Find Your Sparkle</p> <p class="q2">Find Your Style</p>
+            </div>
+            <button onclick="goToOffer()">Festival Sale</button>
+            <div class="dolphin">
+                <img src="Dolphin.png">
+            </div>
+        </section>
+        <section id="products">
+            <Header>
+                <div class="logo">
+                    <img src="logo.jpg">
+                </div>
+                <div class="name"><p>D.Dolphin</p></div>
+                <nav class="home">
+                    <a href="#home">Home</a>&nbsp;&nbsp;
+                    <a href="#products">Products</a> &nbsp;
+                    <a href="#offers">Offers</a>&nbsp;
+                    <a href="#feedback">Feedback</a>&nbsp;
+                    <a href="#contact">Contact</a>
+                </nav>
+            </Header>
+            <img src="img4.jpg" class="img4">
+            <div class="box-container">
+                <div class="box">
+                    <img src="dress1.png">
+                    <p>₹400.00</p>
+                    <button>Add to cart</button>
+                </div>
+                <div class="box">
+                    <img src="dress2.png">
+                    <p>₹950.00</p>
+                    <button>Add to cart</button>
+                </div>
+                <div class="box">
+                    <img src="dress3.png">
+                    <p>₹350.00</p>
+                    <button>Add to cart</button>
+                </div>
+                <div class="box">
+                    <img src="dress4.png">
+                    <p>₹540.00</p>
+                    <button>Add to cart</button>
+                </div>
+            </div>
+        </section>
+        <section id="offers">
+            <div class="main-content">
+                <div class="heading">
+                    <h1>
+                        <img src="https://cdn.pixabay.com/photo/2018/11/16/17/40/diya-3819907__340.jpg" class="diwali_diyasLeft">HAPPY DIWALI &nbsp;
+                        <img src="https://cdn.pixabay.com/photo/2018/11/16/17/40/diya-3819907__340.jpg" class="diwali_diyasRight">
+                    </h1>
+                </div>
+                <div class="content">
+                    <h2>May, thousand of lamps light up your life<br>with endless happiness and joy.<br><br><br>Upto 50% off in every purchase</h2>
+                    
+                    <img src="Dolphin.png" height="200px">
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <Header>
+                <div class="logo">
+                    <img src="logo.jpg">
+                </div>
+                <div class="name"><p>D.Dolphin</p></div>
+                <nav class="home">
+                    <a href="#home">Home</a>&nbsp;&nbsp;
+                    <a href="#products">Products</a> &nbsp;
+                    <a href="#offers">Offers</a>&nbsp;
+                    <a href="#feedback">Feedback</a>&nbsp;
+                    <a href="#contact">Contact</a>
+                </nav>
+            </Header>
+            <div class="bbox">
+                <p><BR>Get in Touch</p>
+                <div class="we"><br>We are here for you! How can we help you?</div>
+                <img src="contact.png" class="upright">
+                <input type="text" id="name" name="name" placeholder="&nbsp;&nbsp; Enter Your Name">
+                <input type="email" id="email" name="email" placeholder="&nbsp;&nbsp; Enter Your Email Address">
+                <div class="grid">
+                    <div class="grid-item">
+                        <textarea placeholder="&nbsp; &nbsp; Go Ahead.."></textarea>
+                        <button>Submit</button>
+                    </div>
+                    <div class="grid-item">
+                        <img src="details.png" class="downright">
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </div>
+</div>
+<script>
+    function goToOffer() {
+            window.location.href = "#offers";
+        }
+</script>
+</body>
+</html>
